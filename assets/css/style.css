@@ -1,0 +1,70 @@
+body {
+    margin:0;
+    padding:0;
+    background-image: url("../images/swirl_pattern.png");
+    background-repeat: repeat;
+    width:100%;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    
+   
+}
+
+#container{
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: white;
+    min-height: 100%;
+    position:relative;
+    background-color: white;
+  
+}
+
+#comp {
+    background-color: pink;
+    padding:10px;
+    width:100px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+
+}
+
+h1 {
+
+    background-color: gray;
+    color:white;
+    padding:10px;
+}
+
+#score {
+    background-color: pink;
+    padding:10px;
+    width:200px;
+    margin-bottom: 10px;
+    float:left;
+    font-weight: bold;
+    text-align: center;
+  
+}
+
+#winlose {
+    background-color: gray;
+    color:white;
+    padding:10px;
+    width:200px;
+float:right;
+   
+}
+
+
+
+.clearfix:after {
+    content: " "; /* Older browser do not support empty content */
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+ }
+

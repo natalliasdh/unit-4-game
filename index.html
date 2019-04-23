@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+
+    <title>Crystalls Collector</title>
+</head>
+
+<body>
+    <div id="container" class="clearfix">
+        <h1>Crystalls Collector</h1>
+        <div id="comp"></div>
+        <div id="buttons">
+            <input type="image" class="hexagon btn" src="assets/images/hexagon.jpg">
+            <input type="image" class="diamond btn" src="assets/images/diamond.jpg">
+            <input type="image" class="octagon btn" src="assets/images/octagon.jpg">
+            <input type="image" class="square btn" src="assets/images/square.jpg">
+        </div>
+
+        <h2>Your total score:</h2>
+        <div class="clearfix">
+            <div id="score">0</div>
+
+            <div id="winlose">
+                <p class="res"></p>
+                <p>Wins: <span id="win">0</span></p>
+                <p> Losses: <span id="lost">0</span></p>
+            </div>
+        </div>
+
+    </div>
+    <script src="assets/javascript/game.js"></script>
+</body>
+
+</html>
